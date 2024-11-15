@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tienda Videojuegos</h1>
+    <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+    <form>
+        <fieldset>
+        <legend><h3>Datos personales y de envío</h3></legend>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname">
+        <br><label for="dname">DNI:</label></br>
+        <input type="text" id="dname" name="fname"><br>
+        <label for="aname">Localidad:</label><br>
+        <input type="text" id="aname" name="lname">
+        <br><label for="pname">Codigo postal:</label></br>
+        <input type="text" id="pname" name="fname"><br>
+        <label for="tname">Telefono:</label><br>
+        <input type="text" id="tname" name="lname">
+        </fieldset>
+        <fieldset>
+        <legend><h3>Elija opción de entrega</h3></legend>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Recoger en el local</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Llevar a domicilio</label><br>
+        </fieldset>
+        <fieldset>
+        <legend><h3>¿Quiere que le enviemos nuestras promociones?</h3></legend>
+        
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Si </label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> No </label><br>
+        </fieldset>
+        <fieldset>
+        <legend><h3>Elija el videojuego</h3></legend>
+
+        <label for ="juego">Videojuegos</label>   
+        <br><select id="juego" name="cars">
+        <option value="volvo">Fortnite</option>
+        <option value="saab">Call of Dutty</option>
+        <option value="fiat">FIFA 25</option></br>
+        </select>
+        <br>
+        <br><label for ="regalo">Añade un Regalo</label>
+        <br> <select id="regalo" name="cars">
+        <option value="volvo">Llavero</option>
+        <option value="saab">Cartas de Colección</option>
+        <option value="fiat">Pegatinas</option>
+        <option value="volvo">Mochila</option></br>
+        </select>
+        </fieldset>
+        <fieldset>
+        <legend><h3>Escribenos como podríamos mejorar</h3></legend>
+
+        <textarea name="message" rows="10" cols="30"> </textarea>
+        
+        
+  
+        <br><input type="submit" value="Submit"> <input type="Reset" value="Borrar todo"></br>
+        </fieldset>
+    </form>
+</body>
+</html>
