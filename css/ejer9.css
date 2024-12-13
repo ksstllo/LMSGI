@@ -1,14 +1,32 @@
 #cabecera{
+float:initial;
 background-color: orange;
+img{
+margin-left: 80%;
+width: 150px;
+}
 }
 #izquierda{
 float: left;
-margin-top: auto;
+margin-right: 8px; ;
+height: 500px;
+padding: 5px;
 background-color: pink;
-width: 70%;
+width: 68%;
+text-align: justify;
 }
 #derecha{
 float: right;
+height: 500px;
+padding: 5px;
 background-color: cadetblue;
-width: 30%;
+width: 29%;
+text-align: left;
 }
+#abajo{
+float: inline-end;
+padding: 5px;
+margin-top: 8px;
+background-color: grey;
+    
+    }
