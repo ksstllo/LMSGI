@@ -1,0 +1,14 @@
+#cabecera{
+background-color: orange;
+}
+#izquierda{
+float: left;
+margin-top: auto;
+background-color: pink;
+width: 70%;
+}
+#derecha{
+float: right;
+background-color: cadetblue;
+width: 30%;
+}
