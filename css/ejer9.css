@@ -24,6 +24,7 @@ width: 29%;
 text-align: left;
 }
 #abajo{
+clear: both;
 float: inline-end;
 padding: 5px;
 margin-top: 8px;
