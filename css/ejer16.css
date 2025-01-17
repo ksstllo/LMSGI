@@ -1,0 +1,44 @@
+#contenedor {
+    float: initial;
+    background-color: rgb(238, 226, 118);
+    width: 85%;
+    margin: auto;
+}
+
+fieldset {
+    color: palevioletred;
+}
+
+legend {
+    color:green;
+}
+
+h1 {
+    color: red;
+    font-style: verdana;
+}
+h3 {
+    font-style: verdana;
+}
+#SupI {
+    float: left;
+}
+
+#SupD {
+    float: right;
+}
+
+#MedI {
+    float: left;
+    clear: both;
+    width: 50%;
+}
+
+#MedD {
+float: right;
+}
+
+#Pie {
+    clear: both;
+    margin-left: 10px;
+}
