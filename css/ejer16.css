@@ -1,12 +1,13 @@
 #contenedor {
     float: initial;
-    background-color: rgb(238, 226, 118);
+    background-color: rgb(237, 233, 127);
     width: 85%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 fieldset {
-    color: palevioletred;
+    color: rgb(179, 49, 92);
 }
 
 legend {
@@ -15,10 +16,10 @@ legend {
 
 h1 {
     color: red;
-    font-style: verdana;
+    font-family: verdana;
 }
 h3 {
-    font-style: verdana;
+    font-family: verdana;
 }
 #SupI {
     float: left;
@@ -40,5 +41,10 @@ float: right;
 
 #Pie {
     clear: both;
-    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.boton {
+    color: red;
+    background-color: transparent;
+    border: 2px, solid, red;
 }
