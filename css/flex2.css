@@ -1,0 +1,46 @@
+body {
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color: #1d1818;
+}
+
+.flex-container {
+    background-color: #404040;
+    border-radius: 10px;
+    border: solid 2px yellow;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: space-around;
+}
+
+.flex-container > * {
+padding: 10px;
+margin: 10px;
+border: solid 1px black;
+border-radius: 10px;
+background: #f18c55;
+}
+
+.one {
+    width: 120px; /*Funciona como el flex-basis, pero no tiene prioridad en caso de poner los 2*/
+}
+
+.two {
+    flex-basis: auto;
+}
+
+.three {
+    flex-basis: auto;
+}
+.four {
+    flex-basis: auto;
+}
+
+.five {
+    flex-basis: auto; /*Con auto ocupa los que haya dentro a no ser que haya un width definido.(Esto funciona como el width)*/
+}
+
+.six {
+    flex-basis: auto;
+}
